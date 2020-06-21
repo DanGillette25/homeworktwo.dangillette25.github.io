@@ -1,7 +1,7 @@
 /* Background image for body tag */
 
 body {
-    background-image: url("images/summitcrater.jpg");
+    background-image: url("summitcrater.jpg");
 }
 
 
@@ -108,10 +108,6 @@ class don't work in so the move-down class accomplishes this */
     }
 }
 
-/* This is where the styling for the site content starts */
-
-/* h2c is basically shorthand for H2 Custom, I'm using this for
-the titles of my content pages */
 .h2c {
 
     border-bottom: 2px solid rgb(146, 143, 143);
@@ -122,19 +118,15 @@ the titles of my content pages */
 
 }
 
-/* Center the content */
 .center{
     margin-right: auto;
     margin-left: auto;
 }
 
-/* provide space between images */
-
 .img-margin{
     margin-bottom: 10px;
 }
  
-/* footer and footer elements design */
 .custom-footer {
     max-width: 91.666667%;
     background-color:#296E85;
@@ -146,8 +138,6 @@ the titles of my content pages */
     margin-top: 10px;
     opacity: 50%
 }
-
-
 
 .not-transparent {
     opacity: 1;
