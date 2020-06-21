@@ -22,50 +22,55 @@
     <div class="top-bar rounded">
     <h1 class="header rounded">Dan Gillette</h1>
     
-    
-    
 
     <!--Nav Bar-->
 
-            <nav class="navbar navbar-light bg-light menupstn move-down rounded not-transparent">
-                
-                <div>
-                <ul class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menupstn move-down rounded not-transparent">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-                 <li class="nav">
-                     <a class="nav-link" href="index.html">About</a>
-                </li>
-                 <li class="nav">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                 </li>
-                 <li class="nav">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                 </li>
+         <li class="nav-item active">
+             <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+         </li>
+         <li class="nav-item dropdown">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
 
 
-                </ul>
+        </ul>
 
-                </div>
+        </div>
 
-             </nav>
+     </nav>
 
     </div>
+
+    <!--About me header, photo, and bio-->
 
 <container>
 
     <div class="container">
         <div class="row">
             <div class="col-md-12 content rounded">
+        <!--About me header-->
         <h2 class="h2c">About Me</h2>
-        <img class="col-md-3 rounded float-left" src="images/eldo.jpg" alt="A picture of me on the summit of Eldorado Peak" height="250" width="150">
-
+        <!--Picture-->
+        <img class="col-md-3 rounded float-left" src="images/eldo.jpg" alt="A picture of Dan on the summit of Eldorado Peak" height="250" width="150">
+        <!--Intro Paragraph-->
         <p>Hi everyone! My name is Dan, and I'm stoked to start this coding bootcamp 
             with you all!  Currently I work in inside sales managing maintenance 
             renewals. When I'm not selling or coding I enjoy climbing, 
             snowboarding, wingsuiting, and hanging out with my wife and our 
             mini schnauzer.</p>
 
-        <p>I grew up in Montana, was in the Army for six years, and went to college Montana State University where 
+        <p>I grew up in Montana, was in the Army for six years, and went to college at Montana State University where 
             I earned a Bachelor's of Science in Marketing.</p>
 
         <p>At some point, this site will have a more professional look full of projects that I have coded
@@ -79,8 +84,31 @@
 </container>
 
    
+<!--Footer bar-->
+<footer class="custom-footer rounded">
+    <!--Social Icons-->
+    <div class="center">
+        <div class="social-icons">
+            <a href="https://github.com/DanGillette25" target="_blank">
+    
+            <img src="images/GitHub_Logo.png" height="50" width="50" alt="GitHub Icon">
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/dangillette/" target="_blank">
+            <img src="images/LI-In-Bug.png" height="50" width="50" alt="LinkedIn Icon">
+            </a>
+        </div>
+    </div>
+</footer>
 
-<footer class="custom-footer rounded"></footer>
+ <!-- jQuery CDN -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+ <!-- Bootstrap JavaScript CDN -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -4,6 +4,13 @@ body {
     background-image: url("summitcrater.jpg");
 }
 
+@media (max-width: 640px){
+    body{
+        background-image: none;
+        background-color: white;
+    }
+}
+
 
 /*These are all used to style the header */
 .top-bar {
@@ -19,12 +26,27 @@ body {
     z-index: 0;
 }
 
+@media (max-width: 640px){
+    .top-bar {
+        max-width: 100%;
+        background-color:#296E85;
+        margin-bottom: 0px;
+        height: 125px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        opacity: 1;
+        z-index: 0;
+    }
+}
+
 .header {
     background-color: #1E5162;
     color: white;
     text-align: center;
     height: 110px;
-    padding: 5px;
+    padding: 20px 15px 5px 15px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 0px;
@@ -33,6 +55,8 @@ body {
     margin-top: 5px;
     max-width: 25%;
 }
+
+/* header class attributes for mobile */
 
 @media (max-width: 640px){
     .header {
@@ -56,25 +80,23 @@ body {
 /* These are used for the menu */
 
 .menupstn {
-
-    width: 300px;
     float: right;
     margin-right: 10px;
+}
+
+	/*Menu styling attributes for mobile */
+
+    @media (max-width: 640px) {
+        .menupstn {
     
-}
+            max-width: 100%;
+            margin-right: 0px;
+            float: none;
+            position: relative;
+            z-index: 1;
+        }
 
-@media (max-width: 640px) {
-    .menupstn {
-
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        float: none;
-        margin-top: 10px;
-        
     }
-}
 
 /*For whatever reason, assigning the margin-top properties in the menupstn
 class don't work in so the move-down class accomplishes this */
@@ -85,28 +107,10 @@ class don't work in so the move-down class accomplishes this */
 
 @media (max-width: 640px){
     .move-down{
-        margin-top: 10px;
+        margin-top: 0px;
     }
 }
 
-/*These are used to style the main content for the site*/
-.content {
-    background-color: white;
-    border: 5px;
-    border-color: black;
-    padding: 10px;
-    margin-top: 50px;
-    max-width: 91.666667%;
-    position: relative;
-}
-
-@media (max-width: 640px){
-    .content{
-        margin-top: 100px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
 
 /* This is where the styling for the site content starts */
 
@@ -128,10 +132,34 @@ the titles of my content pages */
     margin-left: auto;
 }
 
-/* provide space between images */
+/*These are used to style the main content for the site*/
 
-.img-margin{
+.content {
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    padding: 10px;
+    margin-top: 50px;
+    max-width: 91.666667%;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 640px){
+    .content {
+        max-width: 100%;
+        z-index: -1;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+}
+
+/* provide space between images and make them responsive to mobile */
+
+.img-margin {
     margin-bottom: 10px;
+    max-width: auto;
+    max-height: auto;
 }
  
 /* footer and footer elements design */
@@ -144,11 +172,33 @@ the titles of my content pages */
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    opacity: 50%
+    opacity: 50%;
+}
+
+@media (max-width: 640px){
+    .custom-footer {
+        max-width: 100%;
+        background-color:#296E85;
+        margin-bottom: 0px;
+        height: 130px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        opacity: 1;
+    }
+}
+
+.social-icons {
+
+    position: relative;
+    margin-top: 5px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 10px;
+    background-color: white;
+    border: 2px solid black;
+    width: 55px;
+
 }
 
 
-
-.not-transparent {
-    opacity: 1;
-}

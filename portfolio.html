@@ -21,36 +21,37 @@
 <!--This is kind of a header within a header-->
     <div class="top-bar rounded">
     <h1 class="header rounded">Dan Gillette</h1>
-    
-    
-    
 
     <!--Nav Bar-->
 
-            <nav class="navbar navbar-light bg-light menupstn move-down rounded not-transparent">
-                
-                <div>
-                <ul class="nav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menupstn move-down rounded">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
-                 <li class="nav">
-                     <a class="nav-link" href="index.html">About</a>
-                </li>
-                 <li class="nav">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                 </li>
-                 <li class="nav">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                 </li>
+         <li class="nav-item active">
+             <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+         </li>
+         <li class="nav-item dropdown">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
 
 
-                </ul>
+        </ul>
 
-                </div>
+        </div>
 
-             </nav>
+     </nav>
 
     </div>
 
+<!--Image block-->
 <container>
 
     <div class="container">
@@ -58,17 +59,22 @@
                 <div class="col-sm-12 content rounded">
                     <h2 class="h2c">Portfolio</h2>
                     <div class="center">
+
+                        <!--Row 1-->
                         <div class="row">
-                            <img class="col-sm-6 img-margin" src="images/ankor-wat.jpg" alt="" height="300" width="150">
-                            <img class="col-sm-6 img-margin" src="images/wingsuit.jpg" alt="" height="300" width="150">
+                            <img class="col-sm-6 img-margin" src="images/ankor-wat.jpg" alt="Dan in front of Ankor Wat in Cambodia" height="300" width="150">
+                            <img class="col-sm-6 img-margin" src="images/wingsuit.jpg" alt="Dan exiting an airplane in a wingsuit" height="300" width="150">
                         </div>
-                    
+
+                        <!--Row 2-->
                         <div class="row">
-                            <img class="col-sm-6 img-margin" src="images/Skydiving.jpg" alt="" height="300" width="150">
-                            <img class="col-sm-6 img-margin" src="images/paris.jpg" alt=""height="300" width="150">
+                            <img class="col-sm-6 img-margin" src="images/Skydiving.jpg" alt="Dan exiting an airplane" height="300" width="150">
+                            <img class="col-sm-6 img-margin" src="images/paris.jpg" alt="Dan and his wife in front of the Eiffel Tower"height="300" width="150">
                         </div>
+
+                        <!--Row 3-->
                         <div class="row">
-                            <img class="col-sm-6 img-margin" src="images/split.jpg" alt=""height="300" width="150">
+                            <img class="col-sm-6 img-margin" src="images/split.jpg" alt="A picture of Dan's splitboard above the clouds on Mt. Rainier"height="300" width="150">
                         </div>
                     </div>
                 </div>
@@ -78,8 +84,34 @@
 </container>
 
  
+<!--Footer bar-->
+<footer class="custom-footer rounded">
+    <!--Social Icons-->
+<div class="center">
+     
+    <div class="social-icons">
+        <a href="https://github.com/DanGillette25" target="_blank">
+        <img src="images/GitHub_Logo.png" height="50" width="50" alt="GitHub Icon">
+        </a>
+    </div>
+     
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/dangillette/" target="_blank">
+        <img src="images/LI-In-Bug.png" height="50" width="50" alt="LinkedIn Icon">
+        </a>
+    </div>
+</div>
 
-<footer class="custom-footer rounded"></footer>
+
+</footer>
+
+ <!-- jQuery CDN -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+ <!-- Bootstrap JavaScript CDN -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
