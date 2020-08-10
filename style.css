@@ -23,7 +23,7 @@ body {
     margin-right: auto;
     margin-top: 10px;
     opacity: 75%;
-    z-index: 0;
+    z-index: 1;
 }
 
 @media (max-width: 640px){
@@ -37,7 +37,7 @@ body {
         margin-right: auto;
         margin-top: 0px;
         opacity: 1;
-        z-index: 0;
+        z-index: 1;
     }
 }
 
@@ -148,10 +148,11 @@ the titles of my content pages */
 @media (max-width: 640px){
     .content {
         max-width: 100%;
-        z-index: -1;
+        z-index: 0;
         margin-top: 50px;
         margin-bottom: 0px;
     }
+
 }
 
 /* provide space between images and make them responsive to mobile */
@@ -160,6 +161,7 @@ the titles of my content pages */
     margin-bottom: 10px;
     max-width: auto;
     max-height: auto;
+    
 }
  
 /* footer and footer elements design */
@@ -202,3 +204,46 @@ the titles of my content pages */
 }
 
 
+/* Modal Styling */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    
+  }
+
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  
