@@ -3,7 +3,7 @@ This is my portfolio site (or what will be as soon as I have projects to speak o
 and a CSS Stylesheet that I used for some customizations not available in bootstrap.  The site functionality and styling also draws off 
 of Bootstrap CSS, Bootstrap Javascript, and JQuery.
 
-![Search Screenshot](https://raw.githubusercontent.com/DanGillette25/homeworktwo.dangillette25.github.io/master/images/screenshot1.JPG)
+![Test Name](https://raw.githubusercontent.com/DanGillette25/homeworktwo.dangillette25.github.io/master/images/screenshot1.JPG)
 
 The portfolio page contains the projects I have worked on so far:
 
