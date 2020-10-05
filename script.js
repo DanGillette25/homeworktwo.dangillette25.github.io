@@ -4,8 +4,8 @@ const modal = document.getElementById("myModal");
 
 const descriptions = [
     {name: "EmployeeDB (Runs in Terminal)",
-     repoLink: "https://github.com/DanGillette25/homeworkthree.dangillette25.github.io",
-     deployed: "https://dangillette25.github.io/homeworkthree.dangillette25.github.io/"
+     repoLink: "https://github.com/DanGillette25/employeedb",
+     deployed: ""
     },
     {
      name: "Coding Quiz",
